@@ -15,6 +15,8 @@
 		182A51A41D8E278000679D67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182A51A21D8E278000679D67 /* LaunchScreen.storyboard */; };
 		182A51AF1D8E278000679D67 /* TimerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A51AE1D8E278000679D67 /* TimerDemoTests.m */; };
 		182A51BA1D8E278000679D67 /* TimerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A51B91D8E278000679D67 /* TimerDemoUITests.m */; };
+		182A51CE1D8E284600679D67 /* TimerBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A51CD1D8E284600679D67 /* TimerBtn.m */; };
+		182A51DA1D8E30AE00679D67 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A51D91D8E30AE00679D67 /* TimerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		182A51B51D8E278000679D67 /* TimerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182A51B91D8E278000679D67 /* TimerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerDemoUITests.m; sourceTree = "<group>"; };
 		182A51BB1D8E278000679D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182A51CC1D8E284600679D67 /* TimerBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerBtn.h; sourceTree = "<group>"; };
+		182A51CD1D8E284600679D67 /* TimerBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerBtn.m; sourceTree = "<group>"; };
+		182A51D81D8E30AE00679D67 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		182A51D91D8E30AE00679D67 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				182A51981D8E278000679D67 /* AppDelegate.m */,
 				182A519A1D8E278000679D67 /* ViewController.h */,
 				182A519B1D8E278000679D67 /* ViewController.m */,
+				182A51CC1D8E284600679D67 /* TimerBtn.h */,
+				182A51CD1D8E284600679D67 /* TimerBtn.m */,
+				182A51D81D8E30AE00679D67 /* TimerViewController.h */,
+				182A51D91D8E30AE00679D67 /* TimerViewController.m */,
 				182A519D1D8E278000679D67 /* Main.storyboard */,
 				182A51A01D8E278000679D67 /* Assets.xcassets */,
 				182A51A21D8E278000679D67 /* LaunchScreen.storyboard */,
@@ -272,6 +282,8 @@
 			files = (
 				182A519C1D8E278000679D67 /* ViewController.m in Sources */,
 				182A51991D8E278000679D67 /* AppDelegate.m in Sources */,
+				182A51DA1D8E30AE00679D67 /* TimerViewController.m in Sources */,
+				182A51CE1D8E284600679D67 /* TimerBtn.m in Sources */,
 				182A51961D8E278000679D67 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
